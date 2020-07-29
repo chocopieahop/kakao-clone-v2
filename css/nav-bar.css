@@ -1,0 +1,19 @@
+.nav {
+  position: fixed;
+  width: 100%;
+
+  background-color: #fcfcfc;
+  left: 0px;
+  bottom: 0px;
+  padding: 15px 50px;
+  border-top: 1px solid #f7f7f7;
+  box-sizing: border-box;
+}
+/*nav list안에있는 요소를 정렬하고 싶어서 flex사용*/
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav i {
+  font-size: 15px;
+}
