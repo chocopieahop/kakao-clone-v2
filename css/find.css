@@ -29,6 +29,7 @@
 .find .find__title {
   font-size: 14px;
   opacity: 0.7;
+  margin-bottom: 20px;
 }
 
 .find__recommended .friend__name {
